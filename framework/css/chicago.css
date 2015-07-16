@@ -6,7 +6,6 @@
    box-sizing: border-box;
 }
  
-
 /* screen check for 1050px max width */
 @media screen and (max-width: 1050px) {
    body {
@@ -23,13 +22,11 @@
    }
 }
 
-
 /* Applies to the whole grid */
 .grid {
    margin: 0 auto;
    width: 100%;
 }
-
 
 /* Applies to each row */
 .row {
@@ -38,24 +35,20 @@
    display: flex; flex-wrap: wrap;
 }
 
-
 /* Applies to only Logo shown on the first row */
 .logo {
    width: 16.66%;
 }
-
 
 /* Applies to the Logo image shown on the first row */
 .logo-image {
    width: 100%;
 }
 
-
 /* Blank part in the first row */
 .blank-space-first-row {
    width: 50%;
 }
-
 
 /* Applies to the titles shown in the first row */
 .titles {
@@ -63,7 +56,6 @@
    border-right-width: 0px;
    width: 33.33%
 }
-
 
 /* Applies to the top title on the right side of the first row */
 .titles h1 {
@@ -74,7 +66,6 @@
    font-family: "Raleway", sans-serif;
    color: #0033cc;
 }
-
 
 /* Applies to the bottom description on the right side of the first row */
 .titles h2 {
@@ -88,17 +79,13 @@
    color: #0033cc;
 }
 
-
 /* Applies to the line below the first row */
 hr {
     display: block;
     margin: auto;
-    border-style: inset;
-    border-width: 3px;
-    border-color: red;
+    border: inset 3px red;
     width: 100%;
 }
-
 
 /* Applies to the second row  (middle of the page)*/
 .center-chicago-image {
@@ -106,7 +93,6 @@ hr {
     margin-bottom: 15px;
     width:100%;
 }
-
 
 /* Applies to the image shown in the center of the page (second row) */
 .center-image {
@@ -116,12 +102,10 @@ hr {
     width: 100%;
 }
 
-
 /* Applies to the third row */
 .famous-attractions {
     width: 33.33%;
 }
-
 
 /* Applies to the text shown on the third row*/
 .famous-attractions h2 {
@@ -130,12 +114,10 @@ hr {
     color: #d11919;
 }
 
-
 /* Applies to the emply space shown on the third row */
 .blank-space-third-row {
     width: 66.68%;
 }
-
 
 /* Applies to the fourth row where the 3 attractions are shown */
 .attraction{
@@ -144,14 +126,12 @@ hr {
     padding-right: 8px;
 }
 
-
 /* Applies to the image shown for each attraction in the fourth row */
 .attraction-image {
     display: block;
     margin: auto;
     width: 100%;
 }
-
 
 /* Applies to the 3 sub-titles and hyperlinks shown on the fifth row */
 .sub-titles {
@@ -160,12 +140,10 @@ hr {
     padding-bottom: 5px;
 }
 
-
 /* Applies to each sub-tile in the fifth row */
 .sub-title {
     width: 100%
  }
-
 
 /* Applies to the text shown for each subtitle in the fifth row */
 .sub-title h2 {
@@ -176,14 +154,12 @@ hr {
     color: #0033cc;
 }
 
-
 /* Applies to each hyperlink in the fifth row */
 .hyperlink {
     padding-left: 10px;
     padding-right: 10px;
     width: 100%;
 }
-
 
 /* Applies to the hyperlink text shown in the fifth row */
 .hyperlink h3 {
