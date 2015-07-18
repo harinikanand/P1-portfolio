@@ -1,189 +1,146 @@
 /* Box sizing for the grid layout */
 * {
-
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-
 }
 
 @media screen and (min-width: 750px) {
 
    body {
-
       overflow: auto;
-
    }
 
    .attraction {
-
       max-width: 33.33%;
-
    }
 
 }
 
 /* Applies to the whole grid */
 .grid {
-
     margin: 0 auto;
     width: 100%;
-
 }
 
 /* Applies to each row */
 .row {
-
     width: 100%;
     margin: 0 auto;
     display: flex; flex-wrap: wrap;
-
 }
 
 /* Applies to only Logo shown on the first row */
 .logo {
-
     width: 16.66%;
-
 }
 
 /* Applies to the Logo image shown on the first row */
 .logo-image {
-
     width: 100%;
-
 }
 
 /* Blank part in the first row */
 .blank-space-first-row {
-
     width: 50%;
-
 }
 
 /* Applies to the titles shown in the first row */
 .titles {
-
     width: 33.33%
-
 }
 
 /* Applies to the top title on the right side of the first row */
 .titles-h1 {
-
     margin: 0px auto;
     text-align: right;
     width: 100%;
     font: 1.2em "Raleway", sans-serif;
     color: #0033cc;
-
 }
 
 /* Applies to the bottom description on the right side of the first row */
 .titles-h2 {
-
     margin: 10px auto;
     padding: 5px;
     text-align: right;
     width: 100%;
     font: 0.9em "Lato", sans-serif;
     color: #0033cc;
-
 }
 
 /* Applies to the line below the first row */
 hr {
-
     display: block;
     margin: auto;
     border: inset 3px red;
     width: 100%;
-
 }
 
 /* Applies to the second row  (middle of the page)*/
 .center-chicago-image {
-
     margin: 15px auto;
     width: 100%;
-
 }
 
 /* Applies to the image shown in the center of the page (second row) */
 .center-image {
-
     display: block;
     margin: auto;
     width: 100%;
-
 }
 
 /* Applies to the third row */
 .famous-attractions {
-
     width: 33.33%;
-
 }
 
 /* Applies to the text shown on the third row*/
 .famous-attractions-h2 {
-
     width: 100%;
     font: 1em "Raleway", sans-serif;
     color: #d11919;
-
 }
 
 /* Applies to the emply space shown on the third row */
 .blank-space-third-row {
-
     width: 66.66%;
-
 }
 
 /* Applies to the fourth row where the 3 attractions are shown */
 .attraction {
-
     width: 100%;
-
 }
 
 /* Applies to the image shown for each attraction in the fourth row */
 .attraction-image {
-
     display: block;
     margin: 5px;
     padding: 5px;
     width: 100%;
-
 }
 
-/* Applies to the text shown for each subtitle in the fifth row */
+/* Applies to the text shown for each subtitle in the fourth row */
 .sub-title {
-
     font: 1em "Lato", sans-serif;
     text-align: center;
     white-space: nowrap;
     width: 100%;
     color: #0033cc;
-
 }
 
-/* Applies to the hyperlink text shown in the fifth row */
+/* Applies to the hyperlink text shown in the fourth row */
 .hyperlink {
-
     padding: 10px;
     font: 0.75em "Lato", sans-serif;
     text-align: center;
     width: 100%;
     color: #0033cc;
-
 }
 
 /* Added to have URLs wrap on Nexus 4 and Nexus 5 */
 a {
-
     white-space: pre;           /* CSS 2.0 */
     white-space: pre-wrap;      /* CSS 2.1 */
     white-space: pre-line;      /* CSS 3.0 */
@@ -192,5 +149,4 @@ a {
     white-space: -moz-pre-wrap; /* Mozilla */
     white-space: -hp-pre-wrap;  /* HP Printers */
     word-wrap: break-word;      /* IE 5+ */
-
 }
