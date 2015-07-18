@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+/* Media query to change layout for mobiles */
 @media screen and (min-width: 750px) {
 
    body {
